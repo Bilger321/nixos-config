@@ -3,12 +3,12 @@
 {
 
   imports = [
-    ./apps/git.nix
-    ./apps/sh.nix
-    ./apps/tmux.nix
-    ./apps/vim.nix
-    ./apps/vscode.nix
-    ./wm/gnome.nix
+    ./user/apps/git.nix
+    ./user/apps/sh.nix
+    ./user/apps/tmux.nix
+    ./user/apps/vim.nix
+    ./user/apps/vscode.nix
+    ./user/wm/gnome.nix
   ];
 
   home.username = "jbilger";
