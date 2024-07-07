@@ -1,4 +1,5 @@
 { ... }:
+# This is a system-level nix config file
 
 {
   # Need some flatpaks

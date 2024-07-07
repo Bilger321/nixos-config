@@ -7,6 +7,9 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./apps/steam.nix
+      ./apps/flatpak.nix
+      ./apps/vm.nix
     ];
 
   # Bootloader.
