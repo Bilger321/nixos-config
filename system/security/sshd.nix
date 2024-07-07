@@ -10,5 +10,7 @@
       PermitRootLogin = "no";
     };
   };
-  users.users.${userSettings.username}.openssh.authorizedKeys.keys = authorizedKeys;
+  users.users.jbilger.openssh.authorizedKeys.keys = [ 
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEjVw998pd14Wm0R91Ng+w2ZHKSqmKn+hrrPLHR6aNra bilger@NEUROMANCER"
+  ];
 }
