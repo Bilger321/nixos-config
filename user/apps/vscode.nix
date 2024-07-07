@@ -5,9 +5,27 @@
     extensions = with pkgs.vscode-extensions;
     [
       bbenoist.nix
+      arcticicestudio.nord-visual-studio-code
+      coolbear.systemd-unit-file
+      davidanson.vscode-markdownlint
+      github.vscode-pull-request-github
+      jnoortheen.nix-ide
+      ms-python.debugpy
       ms-python.python
+      ms-python.vscode-pylance
+      ms-toolsai.jupyter-keymap
       ms-vscode-remote.remote-ssh
+      ms-vscode.cmake-tools
+      ms-vscode.cpptools
+      ms-vscode.cpptools-extension-pack
+      redhat.ansible
+      redhat.vscode-yaml
       rust-lang.rust-analyzer
+      shardulm94.trailing-spaces
+      tamasfe.even-better-toml
+      timonwong.shellcheck
+      twxs.cmake
+      yzhang.markdown-all-in-one
     ];
   };
 
