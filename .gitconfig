@@ -3,7 +3,7 @@
 	fetch = +refs/heads/*:refs/remotes/origin/*
 	pushurl = git@github.com:bilger321/nixos-config.git
 
-[remote "origin"]
+[remote "gitlab"]
 	url = git@gitlab.com:bilger321/nixos-config.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 	pushurl = git@gitlab.com:bilger321/nixos-config.git
