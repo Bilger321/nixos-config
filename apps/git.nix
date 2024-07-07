@@ -7,6 +7,7 @@
     userEmail = "bilger.jacob@gmail.com";
     extraConfig = {
       init.defaultBranch = "main";
+      core.editor = "vim";
     };
   };
 }

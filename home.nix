@@ -4,6 +4,7 @@
 
   imports = [
     ./apps/git.nix
+    ./apps/steam.nix
     ./apps/sh.nix
     ./apps/tmux.nix
     ./apps/vim.nix
