@@ -1,5 +1,4 @@
 { pkgs, ... }:
-# This is a system-level nix config file
 
 {
   hardware.opengl.driSupport32Bit = true;
