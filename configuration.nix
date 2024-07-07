@@ -8,6 +8,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./system/security/firewall.nix
+      ./system/apps/firefox.nix
       ./system/apps/flatpak.nix
       ./system/security/sshd.nix
       ./system/apps/steam.nix

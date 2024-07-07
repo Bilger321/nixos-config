@@ -34,7 +34,7 @@ in
         OverrideFirstRunPage = "";
         OverridePostUpdatePage = "";
         DontCheckDefaultBrowser = true;
-        DisplayBookmarksToolbar = "always"; # alternatives: "always" or "newtab"
+        DisplayBookmarksToolbar = "never"; # alternatives: "always" or "newtab"
         DisplayMenuBar = "default-off"; # alternatives: "always", "never" or "default-on"
         SearchBar = "unified"; # alternative: "separate"
 
@@ -58,10 +58,15 @@ in
           "extensions.pocket.enabled" = lock-false;
           "extensions.screenshots.disabled" = lock-true;
           "browser.topsites.contile.enabled" = lock-false;
+          "browser.newtabpage.activity-stream.default.sites" = { Value = ""; Status = "locked"; };
+          "browser.newtabpage.activity-stream.enabled" = lock-false;
+          "browser.newtabpage.activity-stream.discoverystream.enabled" = lock-false;
+          "browser.newtabpage.activity-stream.discoverystream.onboardingExperience.dismissed" = lock-true;
           "browser.formfill.enable" = lock-false;
           "browser.search.suggest.enabled" = lock-false;
           "browser.search.suggest.enabled.private" = lock-false;
           "browser.urlbar.suggest.searches" = lock-false;
+          "browser.urlbar.suggest.engines" = lock-false;
           "browser.urlbar.showSearchSuggestionsFirst" = lock-false;
           "browser.newtabpage.activity-stream.feeds.section.topstories" = lock-false;
           "browser.newtabpage.activity-stream.feeds.snippets" = lock-false;
@@ -72,6 +77,12 @@ in
           "browser.newtabpage.activity-stream.showSponsored" = lock-false;
           "browser.newtabpage.activity-stream.system.showSponsored" = lock-false;
           "browser.newtabpage.activity-stream.showSponsoredTopSites" = lock-false;
+          "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts" = lock-false;
+          "browser.newtabpage.activity-stream.logowordmark.AlwaysVisible" = lock-false;
+          "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.havePinned" = { Value = ""; Status = "locked"; };
+          "browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.searchEngines" = { Value = "google"; Status = "locked"; };
+          "browser.newtabpage.activity-stream.logowordmark.alwaysVisible" = lock-false;
+          "browser.newtabpage.activity-stream.showSearch" = lock-false;
         };
       };
     };

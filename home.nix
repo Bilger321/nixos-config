@@ -3,7 +3,6 @@
 {
 
   imports = [
-    ./user/apps/firefox.nix
     ./user/apps/git.nix
     ./user/apps/sh.nix
     ./user/apps/tmux.nix
