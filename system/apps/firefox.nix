@@ -53,7 +53,7 @@ in
   
         /* ---- PREFERENCES ---- */
         # Check about:config for options.
-        Preferences = { 
+        Preferences = {
           "browser.contentblocking.category" = { Value = "strict"; Status = "locked"; };
           "extensions.pocket.enabled" = lock-false;
           "extensions.screenshots.disabled" = lock-true;
